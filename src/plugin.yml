@@ -1,0 +1,11 @@
+name: Heal+
+author: Glenjendary
+main: com.glenjendary.healplus
+description: Simple plugin to heal a player's hunger and health!
+commands:
+  heal:
+    usage: /heal <player>
+    description: Fully heals a player's health.
+  saturate:
+    usage: /saturate <player>
+    description: Fully heals a player's saturation.
