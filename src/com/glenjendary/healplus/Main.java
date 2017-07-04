@@ -17,19 +17,10 @@ public class Main extends JavaPlugin {
         PluginDescriptionFile pdfFile = getDescription();
         Logger logger = getLogger();
 
-        registerEvents();
         registerCommands();
 
         logger.info(pdfFile.getName() + " has been enabled with version "
                 + pdfFile.getVersion());
-
-    }
-
-
-    public void registerEvents() {
-
-        PluginManager pm = getServer().getPluginManager();
-
 
     }
 
