@@ -1,6 +1,7 @@
 name: Heal+
 author: Glenjendary
 main: com.glenjendary.healplus.main
+version: 0.1
 description: Simple plugin to heal a player's hunger and health!
 commands:
   heal:
